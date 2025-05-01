@@ -1,0 +1,25 @@
+/* src/widgets/styles/CompanyThreadWidget.css */
+
+.company-thread-widget {
+    min-height: 300px;
+    padding: 1.5rem;
+  }
+  
+  .company-thread-heading {
+    margin-bottom: 1rem;
+  }
+  
+  .company-thread-messages {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .company-thread-message {
+    margin-bottom: 0.8rem;
+  }
+  
+  .no-messages {
+    text-align: center;
+    color: #e74c3c;
+  }
+  

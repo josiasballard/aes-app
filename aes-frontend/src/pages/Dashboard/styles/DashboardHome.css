@@ -1,0 +1,20 @@
+/* src/pages/DashboardHome.css */
+
+.dashboard-home {
+    padding: 2rem;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for a 2×2 layout */
+    gap: 2.5rem; /* Reduced gap between grid cells */
+    max-width: 1200px; /* Optional: Constrain overall grid width */
+    margin: 0 auto;
+    padding: 1.5rem; /* Adds inside padding around the grid */
+  }
+  

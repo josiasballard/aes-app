@@ -1,0 +1,43 @@
+/* src/widgets/styles/TimePeriodWidget.css */
+
+.time-period-widget {
+  /* Container styling if needed */
+}
+
+.summary-card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.8); /* Optional: for a glass effect */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary-heading {
+  margin-bottom: 1rem;
+}
+
+.summary-values {
+  display: flex;
+  justify-content: space-around;
+}
+
+.summary-item {
+  text-align: center;
+  margin: 0 0.25rem; /* Add a little horizontal spacing between items */
+}
+
+.summary-title {
+  margin-bottom: 0.5rem;
+  font-size: 0.50rem;  /* 50% of default size */
+  font-weight: 500;   /* Uniform weight */
+}
+
+.summary-value {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.navigation-container {
+  margin-top: 2rem;
+}
